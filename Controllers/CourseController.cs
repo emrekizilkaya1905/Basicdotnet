@@ -13,6 +13,12 @@ public class CourseController:Controller {
     return View(course);
   }
   public IActionResult List() {
-    return View("CourseList");
+    var courses=new List<Course>() {
+      new Course {Id = 1, Title ="ASP.NET COURSE",Description="Nice Course" },
+      new Course {Id = 2, Title ="PHP COURSE",Description="Nice Course" },
+      new Course {Id = 3, Title ="JAVASCRIPT COURSE",Description="Nice Course" },
+        new Course {Id = 4, Title ="PHYTON COURSE",Description="Nice Course" },
+    };
+    return View("CourseList",courses);
   }
 }
