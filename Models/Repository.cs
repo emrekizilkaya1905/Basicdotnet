@@ -3,9 +3,11 @@ namespace basics.Models {
     private static readonly List<Course> _courses=new();
     static Repository() {
       _courses=new List<Course>() {
-      new Course (){Id = 1, Title ="ASP.NET COURSE",Description="Nice Course", Image="1.jpeg" },
-      new Course (){Id = 2, Title ="PHP COURSE",Description="Nice Course", Image="2.jpeg" },
-      new Course() {Id = 3, Title ="DJANGO COURSE",Description="Nice Course",Image="3.jpeg" }
+      new Course (){Id = 1, Title ="ASP.NET COURSE",Description="Nice Course", Image="1.jpeg",
+      Tags = new string [] {"asp.net","web developing"},IsActive=true, IsHome=true
+       },
+      new Course (){Id = 2, Title ="PHP COURSE",Description="Nice Course", Image="2.jpeg",Tags = new string [] {"php","web developing"},IsActive=true, IsHome=true },
+      new Course() {Id = 3, Title ="DJANGO COURSE",Description="Nice Course",Image="3.jpeg",Tags = new string [] {"django","web developing"},IsActive=true, IsHome=true }
       };
       
     }
