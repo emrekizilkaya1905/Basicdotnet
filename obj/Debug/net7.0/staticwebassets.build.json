@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r7beBJYOFqqDu6/FKM4ASD1wMj0d0Jnf5Mv7VCJRtko=",
+  "Hash": "uMm9bNgEPIThBgvFcaZnSMDEWBJrOTTXPC+EX8iV680=",
   "Source": "basics",
   "BasePath": "_content/basics",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kizil\\OneDrive\\Desktop\\ASPNET-PROJECTS\\basics\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\basics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kizil\\OneDrive\\Desktop\\ASPNET-PROJECTS\\basics\\wwwroot\\css\\contact.css",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kizil\\OneDrive\\Desktop\\ASPNET-PROJECTS\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "css/contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
       "Identity": "C:\\Users\\kizil\\OneDrive\\Desktop\\ASPNET-PROJECTS\\basics\\wwwroot\\css\\site.css",
